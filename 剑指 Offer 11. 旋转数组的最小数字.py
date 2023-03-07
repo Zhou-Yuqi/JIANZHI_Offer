@@ -20,8 +20,8 @@
 输入：numbers = [2,2,2,0,1]
 输出：0
 '''
-
-class Solution(object): # 二分查找法
+ # 二分查找法
+class Solution(object):
     def minArray(self, numbers):
         """
         :type numbers: List[int]

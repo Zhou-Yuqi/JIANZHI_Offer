@@ -13,23 +13,9 @@
 输出：[1,3,2,4] 
 注：[3,1,2,4] 也是正确的答案之一。
 '''
-class Solution(object): # 前后双指针
-    # def exchange(self, nums):
-    #     i = 0
-    #     j = len(nums) - 1
 
-    #     while i < j:
-
-    #         if nums[i] % 2 == 0 and nums[j] % 2 == 1:
-    #             temp = nums[i]
-    #             nums[i] = nums[j]
-    #             nums[j] = temp
-    #         elif nums[i] % 2 == 1:
-    #             i = i + 1
-    #         elif nums[j] % 2 == 0:
-    #             j = j - 1
-
-    #     return nums
+# 前后双指针
+class Solution(object): 
     def exchange(self, nums):
         left = 0
         right = len(nums) - 1 # 初始化前后双指针
